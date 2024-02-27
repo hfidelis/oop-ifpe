@@ -4,6 +4,7 @@ import java.lang.Math;
 
 /**
  * Classe utilitária com métodos que realizam cálculos.
+ * repo: <a href="https://github.com/hfidelis/oop-ifpe">https://github.com/hfidelis/oop-ifpe</a>
  * @version 1.0
  * @author hfidelis
  */
