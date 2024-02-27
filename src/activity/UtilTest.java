@@ -10,34 +10,49 @@ public class UtilTest {
     public static void main(String[] args) {
         testMethod("somar()/sum()",
                     Util.sum(20, 35));
+
         testMethod("somarPositivo()/sumPositive()",
                     Util.sumPositive(50, -350));
+
         testMethod("subtrair()/subtract()",
                     Util.subtract(35.56, 23.13));
+
         testMethod("subtrairPositivo()/subtractPositive()",
                     Util.subtractPositive(-99.34, 120.33));
+
         testMethod("obterResto()/getRemainder()",
                     Util.getRemainder(200, 7));
+
         testMethod("ajustarNota()/adjustGrade()",
                     Util.adjustGrade(-2));
+
         testMethod("ajustarNota()/adjustGrade()",
                     Util.adjustGrade(13));
+
         testMethod("ajustarNota()/adjustGrade()",
                     Util.adjustGrade(9.5));
+
         testMethod("calcularMedia()/calcAverage()",
                     Util.calcAverage(9, 7.5, 8.75));
+
         testMethod("verificarAprovacao()/verifySituation()",
                     Util.verifySituation(9, 8.5, 7));
+
         testMethod("verificarAprovacao()/verifySituation()",
                     Util.verifySituation(1, 2, 3));
+
         testMethod("verificarAprovacao()/verifySituation()",
                     Util.verifySituation(1, 2, 1));
+
         testMethod("verificarAprovacaoCompleta()/verifyFullSituation()",
                     Util.verifyFullSituation(1, 1, 1, 0.45));
+
         testMethod("verificarAprovacaoCompleta()/verifyFullSituation()",
                     Util.verifyFullSituation(1, 3, 4, 0.85));
+
         testMethod("verificarAprovacaoCompleta()/verifyFullSituation()",
                     Util.verifyFullSituation(8, 6.50, 10, 0.85));
+
         testMethod("verificarAprovacaoCompleta()/verifyFullSituation()",
                     Util.verifyFullSituation(1, 1, 1, 0.85));
     }
