@@ -33,14 +33,14 @@ public class TestBankSlip {
         bankSlips.add(bankslip2);
         bankSlips.add(bankslip3);
 
+        bankslip3.extendExpiration();
+
         for (BankSlip b: bankSlips) {
             System.out.println("Valor final: Boleto" + b.getNumber());
             System.out.println("R$ " + b.calcFinalValue());
             System.out.print(System.lineSeparator());
             totalValue += b.calcFinalValue();
         }
-
-        bankslip3.extendExpiration();
 
         if (bankslip1.equals(bankslip3)) {
             System.out.println("Boletos iguais");
